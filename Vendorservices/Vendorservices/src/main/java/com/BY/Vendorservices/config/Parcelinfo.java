@@ -7,11 +7,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Entity
+
 @AllArgsConstructor
 @NoArgsConstructor
 public class Parcelinfo {
-    @Id
+
     public int id;//pk
     public String parcleid;
     public String parcleweight;
